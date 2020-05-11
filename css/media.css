@@ -1,0 +1,86 @@
+@media(max-width: 786px) {
+      /* z-index repairs */
+      nav{
+        z-index:11;
+      }
+      .swiper-container{
+        z-index:1;
+      }
+      .bg-box{
+        z-index:1;
+      }
+      nav.black{
+        z-index:11;
+      }
+      /* ending z-index repairs*/
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul{
+            background: #000;
+            position:fixed;
+
+      }
+      
+     .razboaie{
+        background-color:white;
+        width:85%;
+
+      }
+      
+      nav .razboaie{
+        max-height:30vh;
+        
+      }
+      .showing {
+            max-height: 100vh;
+
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+.razboaie{
+
+   margin-left:0;
+  padding-left:0;
+  
+  overflow-x:hidden;
+}
+.dropdown-content{
+  margin-left:0;
+  padding-left:0;
+  margin-right:4%;
+
+}
+ .razboaie li{
+  padding:0;
+  margin:0;
+ }
+ .razboaie li a {
+  width:100%;
+  overflow-x:hidden;
+ }
+ .castor{
+  position:fixed;
+  float:left;
+
+  height:60px;
+   margin: -11vh 20px;
+}
+}

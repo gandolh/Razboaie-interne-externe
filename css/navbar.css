@@ -1,0 +1,80 @@
+.castorcnt{
+
+  height:200px;
+  
+ 
+}
+
+.castor{
+  position:fixed;
+  float:left;
+
+  height:60px;
+   margin: 8px 46px;
+}
+nav {
+      background:rgba(0,0,0,0.5);
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 6vh;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      transition: 1s;
+}
+
+nav.black ul {
+      background:#000;
+}
+nav.black .razboaie{
+  background:white;
+}
+nav ul li {
+      display: inline-block;
+    
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      width:7.5em ;
+}
+.razboaie li a{
+  width:115px;
+
+  margin-right:10px;
+
+}
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+.razboaie {
+        width:160px;
+        max-height:50vh;
+       overflow:auto;
+       margin-left:0px;
+       padding-left:0px;
+       overflow-x:hidden;
+      
+      }
+.razboaie li{
+  display:inline-block;
+ 
+}
