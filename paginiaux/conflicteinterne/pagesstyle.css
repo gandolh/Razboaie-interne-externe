@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  position: relative;
+  background-color:#f1f1f1;
+  height:50px;
+  width: 100%;
+  overflow: hidden;
+}
+nav {
+      background:rgba(0,0,0,1);
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+.section{
+  background: #f1f1f1;
+  text-align: center;
+}
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  overflow: hidden;
+}
+.inner-width h1{
+  font-size: 20px;
+  
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+
+
+
+.poza1{
+	
+	height:200px;
+	width:auto;
+	max-width:100%;
+}
+.formatimgtxt{
+	display:inline-block;
+	}
+.poza2{
+display:inline-block;
+height:200px;
+width:45vh;
+max-width:100%;
+
+}
+.inviz{
+	height:12px;
+}
+
+@media(max-width: 786px){
+	.inviz{
+		height:0px;
+	}
+}
+.poza3{
+	display:inline-block;
+	height:175px;
+	width:auto;
+	max-width:100%;
+}
+.poza4{
+	display:inline-block;
+	height:175px;
+	width:23vh;
+	max-width:100%;
+}
+.poza5{
+	display:inline-block;
+	height:150px;
+	width:auto;
+	max-width:100%;
+}
+#stanga{
+float:left;
+height:100px;
+width:auto;
+}
+#dreapta{
+float:right;
+height:100px;
+}
