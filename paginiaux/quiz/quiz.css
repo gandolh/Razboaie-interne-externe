@@ -1,0 +1,136 @@
+body {
+  
+    
+}
+
+.grid {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+      background:rgba(94.5%,94.5%,94.5%,0.85);
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    
+}
+
+.grid h1 {
+
+    font-family: "sans-serif";
+    background-color: #57636e;
+    font-size: 45px;
+    text-align: center;
+    color: #f1f2f2;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+
+#score {
+    color: #5A6772;
+    width:100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #5A6772;
+}
+
+.buttons {
+    margin-top: 30px;
+
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #778897;
+    width: 400px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #2ecc71;
+    border-color:#2ecc71;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+    box-shadow: none;
+}
+#btn0:active, #btn1:active, #btn2:active, #btn3:active {
+    outline: none !important;
+   box-shadow: none;
+}
+
+#progress {
+    color: #2b2b2b;
+    font-size: 18px;
+}
+
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+   z-index:-1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+  /*Credit to Corey*/
+
+ #progressbar{
+  margin-top:25px;
+  }
+  .castorcnt{
+  height:200px;
+}
+
+.progress-indicator>li.gresit,.progress-indicator>li .gresit .bubble{color:#ff6961}
+.progress-indicator>li.gresit .bubble,.progress-indicator>li.gresit .bubble:after,.progress-indicator>li.gresit
+.bubble:before{background-color:#ff6961;border-color:#247830}.progress-indicator>li .bubble:before{left:0}
+.acasa{
+  border:0;
+  background: none;
+  display: inline-block;
+  margin: 14px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.acasa:hover{
+  background: #2ecc71;
+}
+.acasatext{
+  font-family: "sans-serif";  
+  font-size:17px;
+  color:#5A6772;
+ margin-top:1px;
+ margin-bottom:-0.35px;
+}
+.box{text-align:center;}
